@@ -1,0 +1,3 @@
+@echo off
+echo Starting Portfolio Website in browser...
+start chrome "%~dp0index.html" || start msedge "%~dp0index.html" || start firefox "%~dp0index.html"
